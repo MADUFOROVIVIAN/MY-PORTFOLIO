@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.About {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutImage {
+    width: 50%;
+}
+
+.aboutText {
+  width: 50%;
+}
+
+.aboutText h2 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color:  #364068;
+  margin-bottom: 1rem;
+}
+
+.aboutText h5 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  color:  #364068;
+  margin-bottom: 1rem;
+}
+
+.aboutText p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color:  #364068;
+  width: 60%;
+}
+
+.aboutText h6 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: purple;
+    margin-bottom: 1rem;   
+}

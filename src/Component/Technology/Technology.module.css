@@ -1,0 +1,74 @@
+.container {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.iconText h2 {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    color:  #364068;
+    margin-bottom: .3rem;
+    text-align: center;
+}
+
+.iconText p {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.04px;
+    color: #364068;
+    margin-bottom: .3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+text-align: center;
+}
+
+.iconImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.htmlIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.jsIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.vsIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.reactIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.cssIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.gitIcon {
+    color: purple;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
