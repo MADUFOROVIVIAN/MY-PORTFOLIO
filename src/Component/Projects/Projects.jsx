@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Projects.module.css"
-import project from "../../Assests/project.png"
+import tImage from "../../Assests/tImage.png"
 const Projects = () => {
   return (
     <div className={style.container}>
@@ -11,9 +11,15 @@ const Projects = () => {
 </div>
 <div className={style.cards}>
 <div className={style.cardImage}>
-<img src={project} alt="ProjectImage" />
+<img src={tImage} alt="Trafalgar" />
 </div>
-<h5>Trafalgar</h5>
+<h5>Trafalgar health care website</h5>
+<div className={style.flex}>
+    <a href="https://my-first-project-sigma-nine.vercel.app/">
+<button>Vercel link</button>
+</a>
+              </div>
+                
 </div>
 </div>
     </div>
