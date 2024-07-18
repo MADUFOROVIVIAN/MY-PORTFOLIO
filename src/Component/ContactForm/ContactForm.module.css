@@ -1,0 +1,133 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.contactText {
+  display: block;
+}
+
+.contactText h2 {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52.42px;
+    text-align: center;
+    color:  #364068;
+    padding-bottom: 1rem;
+}
+
+.contactText h3 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color:  #364068;
+    margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex button {
+  background: purple;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5rem;
+  border: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: lato;
+}
+
+.contactForm {
+    width: 50%;
+  }
+
+form {
+
+  border-radius: 8px;
+  padding: 2rem 1rem;
+}
+
+form h4 {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 52.42px;
+    text-align: center;
+    color: #364068;
+    padding-bottom: 1rem;
+  }
+
+form input {
+    background: #9b51e0;;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(202, 202, 202, 1);
+  }
+
+::placeholder {
+    color: #ffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.36px;
+  }
+
+  
+form button {
+    background: purple;
+    width: 100%;
+    color: #ffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.04px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+  }
+
+  .message {
+    padding-bottom: 4rem;
+  }
+
+  .formIcons{
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+   margin-top: .5rem;
+   width: 30%;
+  }
+
+  .whatsappIcon {
+    color: green;
+    width: 50%;
+    height: 48px;
+    cursor: pointer;
+}
+
+  .linkedinIcon {
+    color: blue;
+    width: 15%;
+    height: 48px;
+    cursor: pointer;
+}
+
+.twitterIcon {
+    color: black;
+    width: 15%;
+    height: 48px;
+    cursor: pointer;
+}
