@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .topContainer {
@@ -31,7 +31,7 @@ h1 {
   font-weight: 700;
   margin-bottom: 2rem;
   color: #fff;
-  width: 50%;
+  /* width: 30%; */
   font-family: Playwrite;
 }
 
@@ -50,6 +50,58 @@ a {
   color: #fff;
 }
 
+.logos {
+  display: flex;
+justify-content: flex-end;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.whatsappIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.linkedinIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.twitterIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.greeting {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.greeting h2{
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 52.42px;
+  color: #ffff;
+  padding-bottom: 1rem;
+}
+
+.handIcon {
+  color: yellow;
+  width: 48px;
+  height: 48px;
+  cursor: pointer; 
+}
+
 .innerContainer {
   width: 85%;
   display: flex;
@@ -58,10 +110,10 @@ a {
   align-items: center;
 }
 
-.headerText h2 {
+.headerText h3 {
   font-size: 45px;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #fff;
   width: 100%;
   font-family: Lato;
@@ -74,6 +126,17 @@ a {
   color: #fff;
   width: 100%;
   font-family: Inter;
+}
+
+.headerText button {
+  background: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: lato;
 }
 
 .headerImage img {

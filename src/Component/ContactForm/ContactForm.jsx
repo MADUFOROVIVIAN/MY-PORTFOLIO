@@ -3,7 +3,7 @@ import style from "./ContactForm.module.css";
 import emailjs from "emailjs-com";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Response = () => {
   return <p>Your message have been sent successfuly.</p>;
@@ -16,10 +16,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_3jzsgq2",
-        "template_plgakil",
+        "service_27q5qg1",
+        "template_a18gwz9",
         form.current,
-        "syKVdolGKR2P8h6zV"
+        "wfylfvya2yxrOGvH_"
       )
       .then(
         (response) => {
@@ -44,38 +44,57 @@ const ContactForm = () => {
         <h2>Let's discuss something cool</h2>
         <h3> I'm interested in ..</h3>
         <div className={style.flex}>
-        <button>Website</button>
-        <br />
-        <button>Landing page</button>
-        <br />
-        <button>Portfolio</button>
+          <button>Website</button>
+          <br />
+          <button>Landing page</button>
+          <br />
+          <button>Portfolio</button>
         </div>
       </div>
       <div className={style.contactForm}>
         <form ref={form} onSubmit={sendEmail}>
           <h4>Contact me</h4>
-          <input type="text" name="Full_name" placeholder="Full Name" />
+          <textarea
+            type="text"
+            name="Full_name"
+            placeholder="Full Name"
+            required
+          />
           <br />
-          <input type="email" name="Email" placeholder="Email Address" />
+          <textarea
+            type="email"
+            name="Email"
+            placeholder="Email Address"
+            required
+          />
           <br />
-          <input type="phone" name="Phone" placeholder="Phone Number" />
+          <textarea
+            type="phone"
+            name="Phone"
+            placeholder="Phone Number"
+            required
+          />
           <br />
-          <input
+          <textarea
             type="text"
             name="Message"
             placeholder="Message"
             className={style.message}
+            required
           />
           <br />
           <button>Send Message</button>
           <div className={style.row}>{response ? <Response /> : null} </div>
           <div className={style.formIcons}>
-          <a href="https://wa.me/qr/K62V3OTIYAFSP1">
-        <FaWhatsappSquare className={style.whatsappIcon} />
-        </a>
-        <FaLinkedin className={style.linkedinIcon}/>
-        <FaTwitterSquare className={style.twitterIcon}/>
-
+            <a href="https://wa.me/qr/K62V3OTIYAFSP1">
+              <FaWhatsappSquare className={style.whatsappIcon} />
+            </a>
+            <a href="https://www.linkedin.com/in/maduforo-vivian-aa202431a">
+              <FaLinkedin className={style.linkedinIcon} />
+            </a>
+            <a href="https://x.com/MaduforoVi22339">
+              <FaSquareXTwitter className={style.twitterIcon} />
+            </a>
           </div>
         </form>
       </div>

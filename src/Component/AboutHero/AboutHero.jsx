@@ -26,7 +26,7 @@ const AboutHero = () => {
 
           <p>
             I am always eager to learn more and improve my skills. I am
-            constantly striving to improve my skills and makea positive impact
+            constantly striving to improve my skills and make a positive impact
             in my field.
           </p>
         </div>
