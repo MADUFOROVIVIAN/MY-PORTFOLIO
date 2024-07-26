@@ -47,7 +47,7 @@
     background: black;
     color: #fff;
     font-size: 14px;
-    padding: .5rem;
+    padding: 1rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -112,3 +112,36 @@ justify-content: flex-end;
     height: 48px;
     cursor: pointer;
   }
+
+@media screen and (max-width: 500px) {
+    .container {
+        height: 40vh;
+    }
+   .footSide {
+        display: block;
+        width: 85%;
+        margin-top: -2rem;
+     }
+
+     .footFlex button {
+        padding: .5rem;
+        margin-bottom: 1rem;
+    }
+
+     .logos {
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    }
+
+    .mail {
+       margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}

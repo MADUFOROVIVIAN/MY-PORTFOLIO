@@ -50,9 +50,16 @@ a {
   color: #fff;
 }
 
+.hamburger {
+  display: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
 .logos {
   display: flex;
-justify-content: flex-end;
   align-items: baseline;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -86,7 +93,7 @@ justify-content: flex-end;
   gap: 1rem;
 }
 
-.greeting h2{
+.greeting h2 {
   font-family: Lato;
   font-size: 30px;
   font-weight: 700;
@@ -99,7 +106,7 @@ justify-content: flex-end;
   color: yellow;
   width: 48px;
   height: 48px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .innerContainer {
@@ -132,7 +139,7 @@ justify-content: flex-end;
   background: black;
   color: #fff;
   font-size: 14px;
-  padding: 0.5rem;
+  padding: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -142,4 +149,104 @@ justify-content: flex-end;
 .headerImage img {
   width: 100%;
   height: 93vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .headerImage img {
+    height: 73vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headerImage img {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: -4rem;
+  }
+
+  .navMenu {
+    display: none;
+  }
+
+  .mobileMenu {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .active {
+    width: 50%;
+    position: fixed;
+    top: 90px;
+    right: 0;
+    /* background: rgba(3, 1, 65); */
+    color: #fff;
+    transition: 3s;
+  }
+
+  ul{
+    display: block;
+  }
+
+  .active a{
+  color: #fff;
+  padding: 3rem;
+  }
+
+  /* .logos {
+    display: none;
+  } */
+
+  .greeting {
+    gap: .5rem;
+  }
+
+  .greeting h2 {
+  font-size: 25px;
+ }
+  
+  .handIcon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .headerText h3 {
+    font-size: 25px;
+  }
+  
+  .headerText p {
+    font-size: 20px;
+  }
+
+  .headerImage img {
+    width: 90%;
+    height: 68vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ h1 {
+    font-size: 80px;
+  }
+
+  .innerContainer {
+    display: block;
+  }
+
+  .headerImage img {
+    width: 50%;
+    height: 42vh;
+  }
+  }
+
+@media screen and (max-width: 425px) {
+  
 }

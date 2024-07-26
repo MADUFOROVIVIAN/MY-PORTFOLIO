@@ -10,9 +10,6 @@
   align-items: center;
   justify-content: space-between;
 }
-.aboutImage {
-    width: 50%;
-}
 
 .aboutText {
   width: 50%;
@@ -23,8 +20,9 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 28.8px;
-  color:  #364068;
+  color: #364068;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .aboutText h5 {
@@ -32,8 +30,9 @@
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
-  color:  #364068;
+  color: #364068;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .aboutText p {
@@ -42,15 +41,82 @@
   font-weight: 400;
   line-height: 28.04px;
   text-align: left;
-  color:  #364068;
+  color: #364068;
   width: 60%;
 }
 
 .aboutText h6 {
-    font-family: Lato;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 28.8px;
-    color: purple;
-    margin-bottom: 1rem;   
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: purple;
+}
+
+@media screen and (max-width: 1024px) {
+  .About {
+    gap: 2rem;
+  }
+
+  .aboutImage img {
+    width: 100%;
+  }
+
+  .aboutText p {
+    font-size: 19px;
+    width: 95%;
+  }
+
+  .aboutText h6 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutText p {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutText h2 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+
+  .aboutText h5 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .About {
+    display: block;
+  }
+
+  .aboutText {
+    width: 85%;
+  }
+
+  .aboutText h2 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .aboutText h5 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+  }
+
+  .aboutText p {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .aboutText h6 {
+    font-size: 15px;
+  }
 }

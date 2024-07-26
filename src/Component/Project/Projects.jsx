@@ -22,9 +22,11 @@ const Projects = () => {
           <div className={style.flex}>
             <a href="https://github.com/MADUFOROVIVIAN/My-First-Project">
               <button>
-              <FaGithub className={style.gitIcon}/>
-                View Code
-                </button>
+                <span>
+                  <FaGithub className={style.gitIcon} />
+                  View Code
+                </span>
+              </button>
             </a>
           </div>
         </div>
@@ -38,9 +40,11 @@ const Projects = () => {
           <div className={style.flex}>
             <a href="https://github.com/MADUFOROVIVIAN/FRONTEND">
               <button>
-              <FaGithub className={style.gitIcon}/>
-                View Code
-                </button>
+                <span>
+                  <FaGithub className={style.gitIcon} />
+                  View Code
+                </span>
+              </button>
             </a>
           </div>
         </div>
@@ -50,13 +54,15 @@ const Projects = () => {
             <img src={mayframe} alt="MayFrame" />
           </div>
           <h4>Team Project</h4>
-          <h5>MayFrame Property and Investment</h5>
+          <h5>MayFrame Property</h5>
           <div className={style.flex}>
             <a href="https://github.com/MADUFOROVIVIAN/Mayframe">
               <button>
-              <FaGithub className={style.gitIcon}/>
-                View Code
-                </button>
+                <span>
+                  <FaGithub className={style.gitIcon} />
+                  View Code
+                </span>
+              </button>
             </a>
           </div>
         </div>

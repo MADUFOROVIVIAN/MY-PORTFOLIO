@@ -24,9 +24,21 @@
   background: purple;
   color: #fff;
   font-size: 14px;
-  padding: 0.5rem;
+  padding: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-family: lato;
+}
+
+@media screen and (max-width: 500px) {
+  .inner h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .inner button {
+    font-size: 15px;
+    padding: 1rem;
+  }
 }

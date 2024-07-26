@@ -73,3 +73,57 @@
   height: 48px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .iconText h2 {
+    font-size: 25px;
+  }
+
+  .htmlIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .jsIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .vsIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .reactIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .cssIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .gitIcon {
+    color: purple;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .iconText p {
+    font-size: 16px;
+  }
+}

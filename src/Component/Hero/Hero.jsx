@@ -17,9 +17,9 @@ const Hero = () => {
             I'm a web developer and I specialize in building responsive web
             applications using latest frameworks.
           </p>
-          <Link to ='/about'>
-              <h6>Learn more &#8594;</h6>
-              </Link>
+          <Link to="/about">
+            <h6>Learn more &#8594;</h6>
+          </Link>
         </div>
       </div>
     </div>

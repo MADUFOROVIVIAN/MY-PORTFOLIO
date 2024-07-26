@@ -1,49 +1,99 @@
 .container {
-    width: 100%;
-    margin-bottom: 5rem;
-  }
-  
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.about {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutImage {
+  width: 50%;
+}
+
+.aboutText {
+  width: 50%;
+}
+
+.aboutText h2 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #364068;
+  margin-bottom: 0.5rem;
+}
+
+.aboutText h5 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #364068;
+  margin-bottom: 1rem;
+}
+
+.aboutText p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color: #364068;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
   .about {
-    width: 85%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .aboutImage {
-      width: 50%;
-  }
-  
-  .aboutText {
-    width: 50%;
-  }
-  
-  .aboutText h2 {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28.8px;
-    color:  #364068;
-    margin-bottom: .5rem;
-  }
-  
-  .aboutText h5 {
-    font-family: Lato;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 48px;
-    color:  #364068;
-    margin-bottom: 1rem;
-  }
-  
-  .aboutText p {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.04px;
-    text-align: left;
-    color:  #364068;
-    width: 100%;
+    gap: 2rem;
   }
 
-  
+  .aboutImage img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .aboutText {
+    width: 70%;
+    padding-bottom: 2rem;
+  }
+
+  .aboutText p {
+    margin-bottom: -.5rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutText h2 {
+    font-size: 18px;
+  }
+
+  .aboutText h5 {
+    font-size: 25px;
+    margin-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutImage {
+    margin-bottom: 0.5rem;
+  }
+
+  .about {
+    display: block;
+  }
+
+  .aboutText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutText p {
+    font-size: 16px;
+  }
+}

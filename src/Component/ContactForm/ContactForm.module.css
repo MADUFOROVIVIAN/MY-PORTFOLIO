@@ -16,7 +16,7 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 52.42px;
-  text-align: center;
+  text-align: left;
   color: #364068;
   padding-bottom: 1rem;
 }
@@ -129,4 +129,83 @@ form button {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    gap: 2rem;
+  }
+
+  .contactText h2 {
+    font-size: 25px;
+  }
+
+  form h4 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contactText h2 {
+    font-size: 22px;
+  }
+
+  .flex button {
+    font-size: 13px;
+  }
+
+  form h4 {
+    font-size: 22px;
+  }
+
+  .message {
+    padding-bottom: 2rem;
+  }
+
+  .formIcons {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    margin-bottom: 5rem;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .flex button {
+    font-size: 14px;
+  }
+
+  .contactText h2 {
+    font-size: 25px;
+  }
+
+  form h4 {
+    font-size: 25px;
+  }
+
+  .contactText {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contactText h2 {
+    font-size: 23px;
+  }
+
+  form h4 {
+    font-size: 23px;
+  }
+
+  .flex button {
+    font-size: 13px;
+  }
+
+  form textarea {
+    margin-bottom: 0.5rem;
+  }
 }

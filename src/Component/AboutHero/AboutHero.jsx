@@ -1,16 +1,16 @@
-import React from 'react'
-import style from "./AboutHero.module.css"
-import about from "../../Assests/about.png"
+import React from "react";
+import style from "./AboutHero.module.css";
+import about from "../../Assests/about.png";
 
 const AboutHero = () => {
   return (
     <div className={style.container}>
-            <div className={style.about}>
-            <div className={style.aboutImage}>
+      <div className={style.about}>
+        <div className={style.aboutImage}>
           <img src={about} alt="AboutImage" />
         </div>
-                <div className={style.aboutText}>
-        <h2>ABOUT ME</h2>
+        <div className={style.aboutText}>
+          <h2>ABOUT ME</h2>
           <h5>I'm Maduforo Vivian</h5>
           <p>
             I'm a web developer and I specialize in building responsive web
@@ -30,9 +30,9 @@ const AboutHero = () => {
             in my field.
           </p>
         </div>
-          </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default AboutHero
+export default AboutHero;

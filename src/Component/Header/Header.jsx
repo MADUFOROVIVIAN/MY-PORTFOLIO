@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import style from "./Header.module.css"
 import myPic from "../../Assests/myPic.png"
 import { PiHandWavingFill } from "react-icons/pi";
@@ -6,23 +6,54 @@ import { Link } from "react-router-dom";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-
+import { IoMdMenu } from "react-icons/io";
+import {IoMdClose } from "react-icons/io";
 
 const Header = () => {
+  const [navOpen, setNavOpen] = useState(false);
+  
+  const handleNavToggle = () => {
+    setNavOpen(!navOpen);
+  };
+
+  const handleNavLinkClick = () => {
+    setNavOpen(false);
+  };
+
   return (
     <div className={style.container}>
       <div className={style.topContainer}>
        <header>
+       <a href="/">
        <h1>MV</h1>
-        <nav>
+       </a>
+        <nav className={style.navMenu}>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/projects">Projects</a></li>
+                <li><a href="/" onClick={handleNavLinkClick}>Home</a></li>
+                <li><a href="/about" onClick={handleNavLinkClick}>About</a></li>
+                <li><a href="/contact" onClick={handleNavLinkClick}>Contact</a></li>
+                <li><a href="/projects" onClick={handleNavLinkClick}>Projects</a></li>
             </ul>
         </nav>
+        <div className={style.hamburger} onClick={handleNavToggle}>
+          {!navOpen ? (
+            <IoMdMenu className={style.Icons} />
+          ) : (
+            <IoMdClose className={style.Icons} />
+            
+          )}
+        </div>
 
+        <div className={navOpen ? style.active : style.mobileMenu}>
+        <nav className={style.mobileNav}>
+                <ul>
+                <li><a href="/" onClick={handleNavLinkClick}>Home</a></li>
+                <li><a href="/about" onClick={handleNavLinkClick}>About</a></li>
+                <li><a href="/contact" onClick={handleNavLinkClick}>Contact</a></li>
+                <li><a href="/projects" onClick={handleNavLinkClick}>Projects</a></li>
+                </ul>
+            </nav>
+            </div>
         <div className={style.logoSide}>
             <div className={style.logos}>
               <a href="https://wa.me/qr/K62V3OTIYAFSP1">
@@ -43,7 +74,7 @@ const Header = () => {
   <h2>Hello</h2>
   <PiHandWavingFill className={style.handIcon}/>
   </div>
-<h3>Maduforo Vivian</h3>
+<h3> I'm Maduforo Vivian</h3>
 <p>I'm a Web Developer.</p>
 <Link to ='/contact'>
 <button>Contact me</button>
