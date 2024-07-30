@@ -67,6 +67,9 @@ form h4 {
 }
 
 form textarea {
+  font-family: Lato;
+  font-size: 14px;
+  color: #ffff;
   background: #9b51e0;
   width: 100%;
   padding: 0.5rem;

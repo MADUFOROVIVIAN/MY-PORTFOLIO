@@ -17,7 +17,7 @@ const ContactForm = () => {
     emailjs
       .sendForm(
         "service_h2xtfhq",
-        "template_jivejrd",
+        "template_muu8zwg",
         form.current,
         "gYnok7mRFJYCLgUhc"
       )
@@ -85,6 +85,7 @@ const ContactForm = () => {
           <br />
           <button>Send Message</button>
           <div className={style.row}>{response ? <Response /> : null} </div>
+         
           <div className={style.formIcons}>
             <a href="https://wa.me/qr/K62V3OTIYAFSP1">
               <FaWhatsappSquare className={style.whatsappIcon} />
