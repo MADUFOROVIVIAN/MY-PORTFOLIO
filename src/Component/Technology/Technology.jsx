@@ -6,6 +6,10 @@ import { VscVscode } from "react-icons/vsc";
 import { FaReact } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+import { FaLaravel } from "react-icons/fa";
+import { SiPhp } from "react-icons/si";
+
 const Technology = () => {
   return (
     <div className={style.container}>
@@ -19,6 +23,9 @@ const Technology = () => {
           <FaReact className={style.reactIcon} />
           <IoLogoCss3 className={style.cssIcon} />
           <FaGithub className={style.gitIcon} />
+          <SiMysql className={style.mysqlIcon}/>
+          <FaLaravel className={style.larIcon}/>
+          <SiPhp className={style.phpIcon}/>
         </div>
       </div>
     </div>

@@ -106,7 +106,7 @@ const Header = () => {
               <PiHandWavingFill className={style.handIcon} />
             </div>
             <h3> I'm Maduforo Vivian</h3>
-            <p>I'm a Web Developer.</p>
+            <p>I'm a FullStack Developer.</p>
             <Link to="/contact">
               <button>Contact me</button>
             </Link>

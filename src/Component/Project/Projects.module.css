@@ -33,7 +33,7 @@
 
 .card {
   width: 50%;
-  height: 50vh;
+  height: 45vh;
   border-radius: 8px;
   border: 1px solid #c19d59;
   text-align: center;
@@ -44,8 +44,17 @@
   width: 100%;
 }
 
-.cardImage3 img {
-  width: 90%;
+.cardB {
+  width: 32%;
+  height: 55vh;
+  border-radius: 8px;
+  border: 1px solid #c19d59;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cardImage4 img {
+  width: 100%;
 }
 
 .card h5 {
@@ -58,12 +67,14 @@
   margin-bottom: 1rem;
 }
 
-.card h4 {
+.cardB h5 {
   font-family: Lato;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.04px;
   color: #364068;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .flex button {
@@ -102,7 +113,11 @@
 
 @media screen and (max-width: 1024px) {
   .card {
-    height: 45vh;
+    height: 35vh;
+  }
+
+  .cardB {
+    height: 50vh;
   }
 
   .card h4 {
@@ -117,7 +132,11 @@
 
 @media screen and (max-width: 900px) {
   .card {
-    height: 40vh;
+    height: 30vh;
+  }
+
+  .cardB {
+    height: 48vh;
   }
 }
 
@@ -131,8 +150,13 @@
   }
 
   .card {
-    width: 80%;
-    height: 50vh;
+    width: 100%;
+    height: 48vh;
+  }
+
+  .cardB {
+    width: 100%;
+    height: 55vh;
   }
 
   .flex button {
@@ -143,6 +167,20 @@
 
 @media screen and (max-width: 425px) {
   .card {
-    height: 45vh;
+    height: 40vh;
+  }
+
+  .cardB {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    height: 38vh;
+  }
+
+  .cardB {
+    height: 52vh;
   }
 }

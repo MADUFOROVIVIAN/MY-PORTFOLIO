@@ -73,57 +73,111 @@
   height: 48px;
   cursor: pointer;
 }
+.mysqlIcon {
+  color: purple;
+  width: 50%;
+  height: 48px;
+  cursor: pointer;
+}
+
+.larIcon {
+  color: purple;
+  width: 50%;
+  height: 48px;
+  cursor: pointer;
+}
+
+.phpIcon {
+  color: purple;
+  width: 50%;
+  height: 48px;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 500px) {
+  .iconImages {
+    display: block;
+    margin-bottom: 3rem;
+  }
+
   .iconText h2 {
     font-size: 25px;
   }
 
   .htmlIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
   }
 
   .jsIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
   }
 
   .vsIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
   }
 
   .reactIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
   }
 
   .cssIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
   }
 
   .gitIcon {
-    color: purple;
-    width: 30%;
-    height: 30px;
-    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .mysqlIcon {
+    margin-bottom: 1rem;
+  }
+  .larIcon {
+    margin-bottom: 1rem;
+  }
+
+.phpIcon {
+    margin-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .iconText p {
     font-size: 16px;
+  }
+
+  .htmlIcon {
+    margin-bottom: .5rem;
+  }
+
+  .jsIcon {
+    margin-bottom: .5rem;
+  }
+
+  .vsIcon {
+    margin-bottom: .5rem;
+  }
+
+  .reactIcon {
+    margin-bottom: .5rem;
+  }
+
+  .cssIcon {
+    margin-bottom: .5rem;
+  }
+
+  .gitIcon {
+    margin-bottom: .5rem;
+  }
+
+  .mysqlIcon {
+    margin-bottom: .5rem;
+  }
+
+  .larIcon {
+    margin-bottom: .5rem;
+  }
+
+.phpIcon {
+    margin-bottom: .5rem;
   }
 }

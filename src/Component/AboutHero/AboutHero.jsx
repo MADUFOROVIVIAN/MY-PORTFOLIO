@@ -13,14 +13,13 @@ const AboutHero = () => {
           <h2>ABOUT ME</h2>
           <h5>I'm Maduforo Vivian</h5>
           <p>
-            I'm a web developer and I specialize in building responsive web
+            I'm a web developer, frontend and backend. I specialize in building responsive web
             applications using latest frameworks.
           </p>
           <br />
 
           <p>
-            Have had the opportunity to learn from well known I.T School, NIIT
-            and talented individuals in these field.
+            Have had the opportunity to learn from talented individuals in these field.
           </p>
           <br />
 
