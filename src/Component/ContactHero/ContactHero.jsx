@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./ContactHero.module.css";
 import { Link } from "react-router-dom";
+
 const ContactHero = () => {
   return (
     <div className={style.container}>

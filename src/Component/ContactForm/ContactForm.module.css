@@ -147,6 +147,7 @@ form button {
     font-size: 25px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .contactText h2 {
     font-size: 22px;
@@ -168,6 +169,7 @@ form button {
     width: 40%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .container {
     display: block;
@@ -195,6 +197,7 @@ form button {
     margin: auto;
   }
 }
+
 @media screen and (max-width: 375px) {
   .contactText h2 {
     font-size: 23px;

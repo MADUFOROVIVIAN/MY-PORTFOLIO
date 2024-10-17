@@ -192,13 +192,13 @@ a {
     transition: 3s;
   }
 
-  ul{
+  ul {
     display: block;
   }
 
-  .active a{
-  color: #fff;
-  padding: 3rem;
+  .active a {
+    color: #fff;
+    padding: 3rem;
   }
 
   /* .logos {
@@ -206,13 +206,13 @@ a {
   } */
 
   .greeting {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .greeting h2 {
-  font-size: 25px;
- }
-  
+    font-size: 25px;
+  }
+
   .handIcon {
     width: 38px;
     height: 38px;
@@ -221,7 +221,7 @@ a {
   .headerText h3 {
     font-size: 25px;
   }
-  
+
   .headerText p {
     font-size: 20px;
   }
@@ -233,7 +233,7 @@ a {
 }
 
 @media screen and (max-width: 500px) {
- h1 {
+  h1 {
     font-size: 80px;
   }
 
@@ -245,5 +245,4 @@ a {
     width: 50%;
     height: 42vh;
   }
-  }
-
+}

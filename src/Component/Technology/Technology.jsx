@@ -23,9 +23,9 @@ const Technology = () => {
           <FaReact className={style.reactIcon} />
           <IoLogoCss3 className={style.cssIcon} />
           <FaGithub className={style.gitIcon} />
-          <SiMysql className={style.mysqlIcon}/>
-          <FaLaravel className={style.larIcon}/>
-          <SiPhp className={style.phpIcon}/>
+          <SiMysql className={style.mysqlIcon} />
+          <FaLaravel className={style.larIcon} />
+          <SiPhp className={style.phpIcon} />
         </div>
       </div>
     </div>

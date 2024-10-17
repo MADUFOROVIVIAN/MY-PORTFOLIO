@@ -62,7 +62,7 @@
   }
 
   .aboutText p {
-    margin-bottom: -.5rem;
+    margin-bottom: -0.5rem;
     width: 100%;
   }
 }
@@ -74,7 +74,7 @@
 
   .aboutText h5 {
     font-size: 25px;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 }
 

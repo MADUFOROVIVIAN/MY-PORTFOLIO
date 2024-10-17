@@ -9,7 +9,6 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className={style.container}>
-
       <div className={style.projectText}>
         <h2>PROJECTS</h2>
         <p>What I've built so far</p>
@@ -68,20 +67,20 @@ const Projects = () => {
       </div>
 
       <div className={style.cardB}>
-      <div className={style.cardImage2}>
-            <img src={project} alt="API" />
-          </div>
-          <h5>Blog API</h5>
-          <div className={style.flex}>
-            <a href="https://github.com/MADUFOROVIVIAN/Blog-API">
-              <button>
-                <span>
-                  <FaGithub className={style.gitIcon} />
-                  View Code
-                </span>
-              </button>
-            </a>
-          </div>
+        <div className={style.cardImage2}>
+          <img src={project} alt="API" />
+        </div>
+        <h5>Blog API</h5>
+        <div className={style.flex}>
+          <a href="https://github.com/MADUFOROVIVIAN/Blog-API">
+            <button>
+              <span>
+                <FaGithub className={style.gitIcon} />
+                View Code
+              </span>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );

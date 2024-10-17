@@ -78,6 +78,7 @@
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .aboutText h2 {
     font-size: 18px;

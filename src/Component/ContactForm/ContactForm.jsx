@@ -49,8 +49,11 @@ const ContactForm = () => {
           <button>Landing page</button>
           <br />
           <button>Portfolio</button>
+          <br />
+          <button>APIS</button>
         </div>
       </div>
+
       <div className={style.contactForm}>
         <form ref={form} onSubmit={sendEmail}>
           <h4>Contact me</h4>
@@ -85,7 +88,7 @@ const ContactForm = () => {
           <br />
           <button>Send Message</button>
           <div className={style.row}>{response ? <Response /> : null} </div>
-         
+
           <div className={style.formIcons}>
             <a href="https://wa.me/qr/K62V3OTIYAFSP1">
               <FaWhatsappSquare className={style.whatsappIcon} />
